@@ -5,4 +5,4 @@ Invoke-WebRequest -Uri $url -OutFile $outpath
 $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($url, $outpath)
 Start-Process -Filepath "C:\LskHelper.exe"
-quit
+exit
